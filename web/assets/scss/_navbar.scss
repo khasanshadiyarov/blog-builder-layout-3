@@ -79,6 +79,7 @@ nav {
       @include typoStyle(21, 19, -0.1);
       justify-content: center;
       margin-bottom: 24px;
+      font-weight: 900;
 
       .nav-symbol {
         svg {

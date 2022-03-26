@@ -54,19 +54,20 @@ class Controller
             $params = $ref->getParameters();
             $params_pass = [];
             foreach ($params as $param) {
-                if (!$param->isOptional()) {
-                    try {
-                        if (isset($_GET[$param->getName()]) && $_GET[$param->getName()]) {
-                            $params_pass[] = $_GET[$param->getName()];
-                        } else {
+                try {
+                    if (isset($_GET[$param->getName()]) && $_GET[$param->getName()]) {
+                        $params_pass[] = $_GET[$param->getName()];
+                    } else {
+                        if (!$param->isOptional()) {
                             throw new Exception('Missing required parameter <b>' . $param->getName() . '</b>');
                         }
-                    } catch (Exception $e)
-                    {
-                        echo $e->getMessage();
-                        die;
                     }
+                } catch (Exception $e)
+                {
+                    echo $e->getMessage();
+                    die;
                 }
+
             }
 
             return $this->$action(...$params_pass);

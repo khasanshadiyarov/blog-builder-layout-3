@@ -591,7 +591,8 @@ nav {
     line-height: 19px;
     letter-spacing: -0.1px;
     justify-content: center;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    font-weight: 900; }
     nav .nav-brand .nav-symbol svg {
       width: 40px;
       height: 40px; }

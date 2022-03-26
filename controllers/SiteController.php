@@ -14,6 +14,7 @@ use helpers\Text;
 use models\Article;
 use models\Banner;
 use models\Category;
+use models\Product;
 use models\Video;
 use models\Website;
 use models\EmailList;
@@ -141,11 +142,19 @@ class SiteController extends Controller
         return $this->render('search', ['articles' => $articles, 'videos' => $videos, 'tag' => ucfirst($tag), 'banner' => $banner, 'sidebar' => $sidebar]);
     }
 
-    public function actionArticle($id)
+    public function actionArticle($id, $ref = false)
     {
         $article_m = new Article();
         $video_m = new Video();
         $banner_m = new Banner();
+        $product_m = new Product();
+
+        if (isset($ref) && $ref) {
+            $product = $product_m->getProduct();
+            if ($product) {
+                header('Location: ' . $product['url']);
+            }
+        }
 
         // Feed
         $article = $article_m->getArticle($id);
