@@ -14,7 +14,7 @@ use helpers\Component;
                     href="https://<?= Http::getDomain() ?>/cookie-policy"><?= Http::getDomain() ?>/cookie-policy</a></p>
         </section>
         <section id="what-are-cookies">
-            <a href="#what-are-cookies">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#what-are-cookies">
                 <h5>What Are Cookies.</h5>
             </a>
             <p class="par-1">As is common practice with almost all professional websites this site uses cookies,
@@ -26,7 +26,7 @@ use helpers\Component;
                     href="https://www.privacypolicyonline.com/what-are-cookies/">"What Are Cookies"</a>.</p>
         </section>
         <section id="how-we-use-cookies">
-            <a href="#how-we-use-cookies">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#how-we-use-cookies">
                 <h5>How We Use Cookies.</h5>
             </a>
             <p class="par-1">We use cookies for a variety of reasons detailed below. Unfortunately in most cases
@@ -36,7 +36,7 @@ use helpers\Component;
                 use.</p>
         </section>
         <section id="disabling-cookies">
-            <a href="#disabling-cookies">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#disabling-cookies">
                 <h5>Disabling Cookies</h5>
             </a>
             <p class="par-1">You can prevent the setting of cookies by adjusting the settings on your browser (see
@@ -46,7 +46,7 @@ use helpers\Component;
                 do not disable cookies.</p>
         </section>
         <section id="the-cookies-we-set">
-            <a href="#the-cookies-we-set">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#the-cookies-we-set">
                 <h5>The Cookies We Set.</h5>
             </a>
             <ul>
@@ -58,7 +58,7 @@ use helpers\Component;
                 with a page is affected by your preferences.</p>
         </section>
         <section id="third-party-cookies">
-            <a href="#third-party-cookies">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#third-party-cookies">
                 <h5>Third Party Cookies.</h5>
             </a>
             <p class="par-1">In some special cases we also use cookies provided by trusted third parties. The
@@ -72,7 +72,7 @@ use helpers\Component;
             </ul>
         </section>
         <section id="more-information">
-            <a href="#more-information">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#more-information">
                 <h5>More Information.</h5>
             </a>
             <p class="par-1">Hopefully that has clarified things for you and as was previously mentioned if there is

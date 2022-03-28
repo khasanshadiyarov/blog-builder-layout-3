@@ -18,7 +18,7 @@ use helpers\Component;
                 CONDITIONS SET FORTH HEREIN PLEASE DO NOT USE THE SERVICES.</p>
         </section>
         <section id="information-you-provide">
-            <a href="#information-you-provide">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#information-you-provide">
                 <h5 class="">Information You Provide.</h5>
             </a>
             <p class="par-1">If you use the Services (defined below), including when you sign up for an account, we
@@ -27,7 +27,7 @@ use helpers\Component;
                 registered/accessed the Services.</p>
         </section>
         <section id="information-we-collect">
-            <a href="#information-we-collect">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#information-we-collect">
                 <h5 class="">Information We Collect.</h5>
             </a>
             <p class="par-1">We may collect your PII from third parties (including without limitation, from social
@@ -39,7 +39,7 @@ use helpers\Component;
                 communications from us.</p>
         </section>
         <section id="how-we-use-your-information">
-            <a href="#how-we-use-your-information">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#how-we-use-your-information">
                 <h5 class="">How We Use Your Information.</h5>
             </a>
             <p class="par-1">We use your PII for purposes such as providing you with, improving and operating the
@@ -48,14 +48,14 @@ use helpers\Component;
                 from threatening activities.</p>
         </section>
         <section id="chatbot-feature">
-            <a href="#chatbot-feature">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#chatbot-feature">
                 <h5 class="">Chatbot Feature.</h5>
             </a>
             <p class="par-1">We may collect PII through your use of Company’s chatbot feature, as further detailed
                 in Section 2 below.</p>
         </section>
         <section id="cookies-web-beacons">
-            <a href="#cookies-web-beacons">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#cookies-web-beacons">
                 <h5 class="">Cookies, Web Beacons.</h5>
             </a>
             <p class="par-1">We use cookies to collect the information described in this privacy policy, to manage
@@ -63,21 +63,21 @@ use helpers\Component;
                 party tracking technologies and third party providers.</p>
         </section>
         <section id="links">
-            <a href="#links">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#links">
                 <h5 class="">Links.</h5>
             </a>
             <p class="par-1">The Services may contain links to other services, sites and applications that are
                 subject to their own privacy and data protection policies.</p>
         </section>
         <section id="children">
-            <a href="#children">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#children">
                 <h5 class="">Children.</h5>
             </a>
             <p class="par-1">We do not intend to collect PII from anyone we know to be under 13 years old. If you
                 believe that we might have collected such information, please contact us.</p>
         </section>
         <section id="information-sharing">
-            <a href="#information-sharing">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#information-sharing">
                 <h5 class="">Information Sharing.</h5>
             </a>
             <p class="par-1">We grant access to your PII to our affiliates, representatives, agents, third party
@@ -88,7 +88,7 @@ use helpers\Component;
                 assets.</p>
         </section>
         <section id="information-security">
-            <a href="#information-security">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#information-security">
                 <h5 class="">Information Security.</h5>
             </a>
             <p class="par-1">We follow generally accepted industry standards to protect against unauthorized access,
@@ -96,14 +96,14 @@ use helpers\Component;
                 security.</p>
         </section>
         <section id="retention-periods">
-            <a href="#retention-periods">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#retention-periods">
                 <h5 class="">Retention Periods.</h5>
             </a>
             <p class="par-1">We retain your PII as needed for the purposes for which it was collected and for
                 lawful, ethical and document retention purposes.</p>
         </section>
         <section id="data-integrity">
-            <a href="#data-integrity">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#data-integrity">
                 <h5 class="">Data Integrity.</h5>
             </a>
             <p class="par-1">We process PII only for the purposes for which it was collected and take reasonable
@@ -112,14 +112,14 @@ use helpers\Component;
                 information at our discretion.</p>
         </section>
         <section id="data-subjects-rights">
-            <a href="#data-subjects-rights">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#data-subjects-rights">
                 <h5 class="">Data Subjects' Rights.</h5>
             </a>
             <p class="par-1">At any time, you may contact us and request to exercise your rights in accordance with
                 applicable law. For more details see Section 10 below.</p>
         </section>
         <section id="enforcement">
-            <a href="#enforcement">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#enforcement">
                 <h5 class="">Enforcement.</h5>
             </a>
             <p class="par-1">We will cooperate with the appropriate regulatory authorities to resolve any formal
@@ -127,7 +127,7 @@ use helpers\Component;
                 complaining individual.</p>
         </section>
         <section id="processing-and-transferring-of-pii">
-            <a href="#processing-and-transferring-of-pii">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#processing-and-transferring-of-pii">
                 <h5 class="">Processing and Transferring of PII.</h5>
             </a>
             <p class="par-1">Your PII may be stored and processed in a country outside the country of your residence
@@ -135,7 +135,7 @@ use helpers\Component;
                 applicable laws.</p>
         </section>
         <section id="do-not-track-notices">
-            <a href="#do-not-track-notices">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#do-not-track-notices">
                 <h5 class="">Do Not Track Notices.</h5>
             </a>
             <p class="par-1">If you are a California resident you may contact us and request information regarding
@@ -143,7 +143,7 @@ use helpers\Component;
                 Track signals.</p>
         </section>
         <section id="policy">
-            <a href="#policy">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#policy">
                 <h5 class="">Policy</h5>
             </a>
             <p class="par-1"><strong>You are not legally required to provide us with PII, however, some features
@@ -160,7 +160,7 @@ use helpers\Component;
                     Services.</strong></p>
         </section>
         <section id="1-information-we-collect">
-            <a href="#1-information-we-collect">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#1-information-we-collect">
                 <h5 class="">1. Information We Collect.</h5>
             </a>
             <p class="par-1 mb-5">In order to provide and improve our Services, we may collect PII, including the
@@ -240,7 +240,7 @@ use helpers\Component;
             </ol>
         </section>
         <section id="2-chatbot-feature">
-            <a href="#2-chatbot-feature">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#2-chatbot-feature">
                 <h5 class="">2. Chatbot Feature.</h5>
             </a>
             <p class="par-1">As party of the Services you have the option to use Company’s chatbot feature. To the
@@ -254,7 +254,7 @@ use helpers\Component;
                 communications through the chatbot feature and through Facebook Messenger.</p>
         </section>
         <section id="3-cookies-web beacons">
-            <a href="#3-cookies-web beacons">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#3-cookies-web beacons">
                 <h5 class="">3. Cookies, web beacons.</h5>
             </a>
             <p class="par-1">In order to collect the data described herein we may use temporary cookies that remain
@@ -288,7 +288,7 @@ use helpers\Component;
                 and linking to www.amazon.com.</p>
         </section>
         <section id="4-links">
-            <a href="#4-links">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#4-links">
                 <h5 class="">4. Links.</h5>
             </a>
             <p class="par-1">Links to other services, sites and applications may be provided by the Company as a
@@ -297,7 +297,7 @@ use helpers\Component;
                 solely to PII collected by us.</p>
         </section>
         <section id="5-children">
-            <a href="#5-information sharing">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#5-information sharing">
                 <h5 class="">5. Children.</h5>
             </a>
             <p class="par-1">If you are a child under the age of 13, you must not use our Services or provide us
@@ -309,7 +309,7 @@ use helpers\Component;
                 databases.</p>
         </section>
         <section id="6-information-sharing">
-            <a href="#6-information-sharing">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#6-information-sharing">
                 <h5 class="">6. Information Sharing.</h5>
             </a>
             <p class="par-1">As part of providing the Services and/or generating and processing analytics, our
@@ -329,7 +329,7 @@ use helpers\Component;
                 consent where required.</p>
         </section>
         <section id="7-information-security">
-            <a href="#7-information-security">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#7-information-security">
                 <h5 class="">7. Information Security.</h5>
             </a>
             <p class="par-1">We follow generally accepted industry standards to protect against unauthorized access
@@ -339,7 +339,7 @@ use helpers\Component;
                 security.</p>
         </section>
         <section id="8-retention-periods">
-            <a href="#8-retention-periods">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#8-retention-periods">
                 <h5 class="">8. Retention periods.</h5>
             </a>
             <p class="par-1">We keep your PII only for as long as reasonably necessary for the purposes for which it
@@ -347,7 +347,7 @@ use helpers\Component;
                 requirements, and delete any PII that is no longer useful or relevant to our operations.</p>
         </section>
         <section id="9-data-integrity">
-            <a href="#9-data-integrity">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#9-data-integrity">
                 <h5 class="">9. Data Integrity.</h5>
             </a>
             <p class="par-1">The Company processes PII only for the purposes for which it was collected and in
@@ -359,12 +359,12 @@ use helpers\Component;
                 at our own discretion, delete or avoid from recording and storing any and all information.</p>
         </section>
         <section id="10-data-subjects-rights">
-            <a href="#10-data-subjects-rights">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#10-data-subjects-rights">
                 <h5 class="">10. Data Subjects' Rights.</h5>
             </a>
         </section>
         <section id="right-of-access-and-rectification">
-            <a href="#right-of-access-and-rectification">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#right-of-access-and-rectification">
                 <h5 class="">Right of Access and Rectification.</h5>
             </a>
             <p class="par-1">You have the right to know what PII we collect about you and to ensure that such data
@@ -374,7 +374,7 @@ use helpers\Component;
                 identify your PII.</p>
         </section>
         <section id="right-to-delete-personal-information">
-            <a href="#right-to-delete-personal-information">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#right-to-delete-personal-information">
                 <h5 class="">Right to Delete Personal Information</h5>
             </a>
             <p class="par-1">You have the right to delete your PII or restrict its processing. We may postpone or
@@ -382,7 +382,7 @@ use helpers\Component;
                 other legitimate purposes such as compliance with legal obligations.</p>
         </section>
         <section id="right-to-withdraw-consent">
-            <a href="#right-to-withdraw-consent">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#right-to-withdraw-consent">
                 <h5 class="">Right to Withdraw Consent.</h5>
             </a>
             <p class="par-1">You have the right to withdraw your consent to the processing of your PII. Exercising
@@ -391,21 +391,21 @@ use helpers\Component;
                     href="mailto:<?= $website['email'] ?>"><?= $website['email'] ?></a></p>
         </section>
         <section id="right-to-lodge-complaint">
-            <a href="#right-to-lodge-complaint">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#right-to-lodge-complaint">
                 <h5 class="">Right to Lodge Complaint.</h5>
             </a>
             <p class="par-1">You also have the right to lodge a complaint with a data protection supervisory
                 authority regarding the processing of your PII.</p>
         </section>
         <section id="right-of-data-portability">
-            <a href="#right-of-data-portability">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#right-of-data-portability">
                 <h5 class="">Right of Data Portability.</h5>
             </a>
             <p class="par-1">Where technically feasible, you have the right to ask to transfer your PII in
                 accordance with your right to data portability.</p>
         </section>
         <section id="11-enforcement">
-            <a href="#11-enforcement">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#11-enforcement">
                 <h5 class="">11. Enforcement.</h5>
             </a>
             <p class="par-1">The Company regularly reviews its compliance with this policy. Please feel free to
@@ -420,7 +420,7 @@ use helpers\Component;
                 resolved between the Company and an individual.</p>
         </section>
         <section id="12-changes-to-this-privacy-policy">
-            <a href="#12-changes-to-this-privacy-policy">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#12-changes-to-this-privacy-policy">
                 <h5 class="">12. Changes to This Privacy Policy.</h5>
             </a>
             <p class="par-1">We reserve the right, in our sole and absolute discretion, to change this Privacy
@@ -432,7 +432,7 @@ use helpers\Component;
                 our privacy practices.</p>
         </section>
         <section id="13-consent-to-processing-of-pii">
-            <a href="#13-consent-to-processing-of-pii">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#13-consent-to-processing-of-pii">
                 <h5 class="">13. Consent To Processing of PII.</h5>
             </a>
             <p class="par-1">By providing any PII to us pursuant to this policy, all users, including, without
@@ -457,7 +457,7 @@ use helpers\Component;
             </p>
         </section>
         <section id="14-questions">
-            <a href="#14-questions">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#14-questions">
                 <h5 class="">14. Questions.</h5>
             </a>
             <p class="par-1">If you have any questions about this policy or concerns about the way we process your
@@ -465,7 +465,7 @@ use helpers\Component;
                     href="mailto:<?= $website['email'] ?>"><?= $website['email'] ?></a></p>
         </section>
         <section id="15-your-california-privacy-rights">
-            <a href="#15-your-california-privacy-rights">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#15-your-california-privacy-rights">
                 <h5 class="">15. Your California Privacy Rights.</h5>
             </a>
             <p class="par-1">California Civil Code Section 1798.83 permits customers of Company who are California

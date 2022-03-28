@@ -10,7 +10,7 @@ use helpers\Component;
                 SERVICES.</p>
         </section>
         <section id="1-acceptance-of-terms">
-            <a href="#1-acceptance-of-terms">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#1-acceptance-of-terms">
                 <h5>1. Acceptance of terms</h5>
             </a>
             <p class="par-1">The following instrument consists of the terms and conditions governing your ("you" or
@@ -32,7 +32,7 @@ use helpers\Component;
                 ANY RIGHT TO PARTICIPATE IN A CLASS-ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.</p>
         </section>
         <section id="2-license">
-            <a href="#2-license">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#2-license">
                 <h5>2. License</h5>
             </a>
             <p class="subheading mb-2">2.1 Limited license to access the services.</p>
@@ -93,7 +93,7 @@ use helpers\Component;
                 Services.</p>
         </section>
         <section id="3-submitted-materials">
-            <a href="#3-submitted-materials">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#3-submitted-materials">
                 <h5>3. Submitted materials</h5>
             </a>
             <p class="subheading mb-2">3.1 Submited materials.</p>
@@ -131,7 +131,7 @@ use helpers\Component;
                 data provided and/or uploaded by you to the Services.</p>
         </section>
         <section id="4-your-account">
-            <a href="#4-your-account">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#4-your-account">
                 <h5>4. Your Account</h5>
             </a>
             <p class="par-1">You are solely responsible for any actions performed in the Services under your
@@ -153,7 +153,7 @@ use helpers\Component;
             </ol>
         </section>
         <section id="5-ownership-of-proprietary-rights">
-            <a href="#5-ownership-of-proprietary-rights">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#5-ownership-of-proprietary-rights">
                 <h5>5. Ownership of proprietary rights</h5>
             </a>
             <p class="par-1">
@@ -188,7 +188,7 @@ use helpers\Component;
             </ol>
         </section>
         <section id="6-user-warranties-and-representations">
-            <a href="#6-user-warranties-and-representations">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#6-user-warranties-and-representations">
                 <h5>6. User warranties and representations</h5>
                 <p class="par-1">You represent and warrant to Company that:</p>
                 <ol>
@@ -204,14 +204,14 @@ use helpers\Component;
             </a>
         </section>
         <section id="7-privacy">
-            <a href="#7-privacy">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#7-privacy">
                 <h5>7. Privacy</h5>
             </a>
             <p class="par-1">Company privacy practices are governed by Company's privacy policy, the most updated
                 copy of which can be found on the Services ("<strong>Privacy Policy</strong>").</p>
         </section>
         <section id="8-disclaimer">
-            <a href="#8-disclaimer">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#8-disclaimer">
                 <h5>8. Disclaimer</h5>
             </a>
             <p class="par-1">YOU AGREE THAT YOUR USE OF THE SERVICES AND/OR THE COMPANY IPR SHALL BE AT YOUR OWN
@@ -238,7 +238,7 @@ use helpers\Component;
                 ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.</p>
         </section>
         <section id="9-limitation-of-liability">
-            <a href="#9-limitation-of-liability">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#9-limitation-of-liability">
                 <h5>9. Limitation of liability</h5>
             </a>
             <p class="par-1">TO THE MAXIMUM PERMITTED UNDER LAW, UNDER NO CIRCUMSTANCES WHATSOEVER WILL COMPANY AND
@@ -261,7 +261,7 @@ use helpers\Component;
                 TAKEN INTO ACCOUNT AND REFLECTED IN THE DECISION BY YOU TO ENTER INTO THESE TERMS.</p>
         </section>
         <section id="10-indemnification">
-            <a href="#10-indemnification">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#10-indemnification">
                 <h5>10. Indemnification</h5>
             </a>
             <p class="par-1">You agree to defend, indemnify and hold Company and anyone on its behalf, including but
@@ -279,7 +279,7 @@ use helpers\Component;
             </ol>
         </section>
         <section id="11-third-party-content">
-            <a href="#11-third-party-content">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#11-third-party-content">
                 <h5>11. Third party content</h5>
             </a>
             <p class="par-1">The Services contain content, links and references to third party services, products
@@ -318,7 +318,7 @@ use helpers\Component;
                 Network.</p>
         </section>
         <section id="12-notice-and-takedown">
-            <a href="#12-notice-and-takedown">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#12-notice-and-takedown">
                 <h5>12. Notice and takedown</h5>
             </a>
             <p class="par-1">In the event that you believe that any content included in the Services violates your
@@ -328,7 +328,7 @@ use helpers\Component;
                 make reasonable efforts to remove the content.</p>
         </section>
         <section id="13-termination">
-            <a href="#13-terminatio">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#13-terminatio">
                 <h5>13. Termination</h5>
             </a>
             <p class="par-1">We may terminate these Terms and/or suspend your right to access or use any portion or
@@ -344,7 +344,7 @@ use helpers\Component;
                 control.</p>
         </section>
         <section id="14-arbitration-class-waiver">
-            <a href="#14-arbitration-class-waiver">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#14-arbitration-class-waiver">
                 <h5>14. Arbitration, Class Waiver</h5>
             </a>
             <p class="subheading mb-2">14.1 Applicability of Arbitration Agreement.</p>
@@ -434,7 +434,7 @@ use helpers\Component;
                 or at court.</p>
         </section>
         <section id="14-general">
-            <a href="#14-general">
+            <a href="<?= $_SERVER['REQUEST_URI'] ?>#14-general">
                 <h5>14. General</h5>
             </a>
             <ol>
