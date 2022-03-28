@@ -19,7 +19,7 @@ use helpers\Text;
         </div>
     </div>
     <div class="af-item-description">
-        <a href="/article?id=<?= $product['article_id'] ?>#af-item-<?= $product['id'] ?>" target="_blank">
+        <a href="/article?id=<?= $product['article_id'] ?>#af-item-<?= $product['id'] ?>">
             <p><?= Text::trimText($product['description'], 80) ?></p>
         </a>
     </div>
