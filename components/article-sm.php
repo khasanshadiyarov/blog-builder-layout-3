@@ -17,7 +17,7 @@ use helpers\Text;
     </div>
     <div class="article-content">
         <a href="/article?id=<?= $article['id'] ?>">
-            <?= Text::trimText($article['content'], 110) ?>
+            <?= Text::trimText(Text::trimParagraphs($article['content'], 1), 110) ?>
         </a>
     </div>
     <a href="/article?id=<?= $article['id'] ?>" class="platter-cta">Read more...</a>
