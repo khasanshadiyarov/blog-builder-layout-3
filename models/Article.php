@@ -81,8 +81,10 @@ class Article
         $article = $q->fetch(PDO::FETCH_ASSOC);
 
         // Tags to array
-        $article['tags'] = explode(',', $article['tags']);
-        $article['new'] = true;
+        if ($article) {
+            $article['tags'] = explode(',', $article['tags']);
+            $article['new'] = true;
+        }
 
         return $article;
     }

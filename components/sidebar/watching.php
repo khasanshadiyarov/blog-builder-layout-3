@@ -4,6 +4,10 @@ use helpers\Component;
 
 $video_m = new Video();
 $video = $video_m->getVideo();
+
+if (!$video) {
+    return false;
+}
 ?>
 
 <section id="watching">

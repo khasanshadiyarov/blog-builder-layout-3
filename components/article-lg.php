@@ -5,14 +5,7 @@
 
 use helpers\Text;
 
-try {
-    if (!$article) {
-        throw new Exception('Error: No <b>article</b> provided to component: ' . __FILE__);
-    }
-}
-catch (Exception $e)
-{
-    echo $e->getMessage();
+if (!$article) {
     return false;
 }
 ?>
