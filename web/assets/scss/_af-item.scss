@@ -21,6 +21,7 @@
   &.af-item-lg {
     @extend .platter-sm;
     display: flex;
+    gap: 20px;
 
     .af-item-text {
       padding-top: 12px;

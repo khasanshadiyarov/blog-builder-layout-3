@@ -4,7 +4,8 @@ namespace db;
 use Exception;
 use PDO;
 
-class DB {
+class
+DB {
     public static $db;
 
     static function init()
@@ -13,7 +14,7 @@ class DB {
             self::$db = new PDO(
                 'mysql:host=127.0.0.1;
                 port=3306;
-                dbname=prostreamsetup;
+                dbname=allthingsheadphones;
                 charset=utf8',
                 'root',
                 '');
