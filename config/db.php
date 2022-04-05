@@ -4,8 +4,7 @@ namespace db;
 use Exception;
 use PDO;
 
-class
-DB {
+class DB {
     public static $db;
 
     static function init()
@@ -18,12 +17,13 @@ DB {
                 charset=utf8',
                 'root',
                 '');
+
+            return self::$db;
         }
         catch (Exception $e) {
-            return $e->getMessage();
+            echo $e->getMessage();
+            die;
         }
-
-        return self::$db;
     }
 }
 
