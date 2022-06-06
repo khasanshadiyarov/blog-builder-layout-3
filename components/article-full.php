@@ -10,11 +10,11 @@ use helpers\Component;
 <section id="article-<?= $article['id'] ?>">
     <div class="article article-expand">
         <div class="article-header">
-            <a href="" class="platter-ref">
+            <a href="/category?id=<?= $article['category_id'] ?>" class="platter-ref">
                 <span class="preview-symbol"><img src="https://source.unsplash.com/<?= $article['category_image'] ?>/48x48" alt="*"></span>
                 <?= $article['category_name'] ?>
             </a>
-            <a href="">
+            <a href="/article?id=<?= $article['id'] ?>">
                 <h3 class="article-title"><?= $article['title'] ?></h3>
             </a>
         </div>
