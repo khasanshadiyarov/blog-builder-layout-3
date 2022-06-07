@@ -22,6 +22,12 @@
         </a>
     </div>
     <div class="af-item-preview">
-        <?= $product['image'] ?>
+      <?php 
+        if (filter_var($product['image'], FILTER_VALIDATE_URL)) {
+          echo '<img src="' . $product['image'] . '"></img>';
+        } else {
+          echo $product['image'];
+        }
+        ?>
     </div>
 </div>
