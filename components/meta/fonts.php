@@ -13,6 +13,9 @@ use helpers\Http;
     * {
         font-family: '<?= Http::extractParam($website['font_body'], 'family') ?>', sans-serif;
     }
+    .tag {
+        font-weight: 700;
+    }
 
     body {
         overflow: unset;
@@ -24,8 +27,7 @@ use helpers\Http;
     h4,
     h5,
     h6,
-    .nav-brand,
-    .tag {
+    .nav-brand {
         font-family: '<?= Http::extractParam($website['font_headline'], 'family') ?>', sans-serif;
     }
 </style>
